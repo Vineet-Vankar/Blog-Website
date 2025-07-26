@@ -1,0 +1,31 @@
+# === NODE ===
+node_modules/
+package-lock.json
+
+# === ENV ===
+.env
+.env.local
+.env.*.local
+
+# === LOGS ===
+*.log
+logs/
+
+# === OS/Editor ===
+.DS_Store
+.vscode/
+.idea/
+
+# === FRONTEND (Vite/React) ===
+dist/
+build/
+
+# === BACKEND ===
+server/dist/
+server/build/
+
+# === IMAGES & ASSETS (optional if large or unneeded) ===
+*.png
+*.jpg
+*.jpeg
+*.gif
