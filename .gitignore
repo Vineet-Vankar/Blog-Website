@@ -19,6 +19,7 @@ logs/
 # === FRONTEND (Vite/React) ===
 dist/
 build/
+client/src/common/firebase.jsx/
 
 # === BACKEND ===
 server/dist/
