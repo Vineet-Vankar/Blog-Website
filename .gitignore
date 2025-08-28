@@ -23,6 +23,7 @@ build/
 # === BACKEND ===
 server/dist/
 server/build/
+server/blogify-d62e9-firebase-adminsdk-fbsvc-bf1846b2f1.json
 
 # === IMAGES & ASSETS (optional if large or unneeded) ===
 *.png
