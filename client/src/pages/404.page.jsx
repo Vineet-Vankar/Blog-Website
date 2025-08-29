@@ -3,12 +3,8 @@ import pageNotFoundImage from "../imgs/404.png";
 // import darkPageNotFoundImage from "../imgs/404-dark.png";
 import fullLogo from "../imgs/full-logo.png";
 // import darkFullLogo from "../imgs/full-logo-dark.png";
-// import { ThemeContext } from "../App";
-// import { useContext } from "react";
 
 const PageNotFound = () => {
-
-    // let { theme } = useContext(ThemeContext);
 
     return (
         <section className="h-cover relative p-10 flex flex-col items-center gap-20 text-center">
