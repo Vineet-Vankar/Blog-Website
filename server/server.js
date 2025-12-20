@@ -13,8 +13,8 @@ import aws from "aws-sdk";
 // to get serviceaccountkey in json format
 import fs from "fs/promises";
 
-const raw = await fs.readFile("./blogify-d62e9-firebase-adminsdk-fbsvc-bf1846b2f1.json", "utf-8");
-const serviceAccountKey = JSON.parse(raw);
+// const raw = await fs.readFile("./blogify-d62e9-firebase-adminsdk-fbsvc-bf1846b2f1.json", "utf-8");
+const serviceAccountKey = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 
 
 // Schema below
